@@ -1,0 +1,34 @@
+
+Traceback (most recent call last):
+  File "practice.py", line 42, in <module>
+    block = blockexplorer.get_block(block_hash)
+  File "/Library/Python/2.7/site-packages/blockchain/blockexplorer.py", line 20, in get_block
+    response = util.call_api(resource)
+  File "/Library/Python/2.7/site-packages/blockchain/util.py", line 23, in call_api
+    response = urlopen(BASE_URL + resource, payload, timeout = TIMEOUT).read()
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 127, in urlopen
+    return _opener.open(url, data, timeout)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 404, in open
+    response = self._open(req, data)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 422, in _open
+    '_open', req)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 382, in _call_chain
+    result = func(*args)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 1222, in https_open
+    return self.do_open(httplib.HTTPSConnection, req)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib2.py", line 1187, in do_open
+    r = h.getresponse(buffering=True)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 1045, in getresponse
+    response.begin()
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 409, in begin
+    version, status, reason = self._read_status()
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/httplib.py", line 365, in _read_status
+    line = self.fp.readline(_MAXLINE + 1)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py", line 476, in readline
+    data = self._sock.recv(self._rbufsize)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/ssl.py", line 241, in recv
+    return self.read(buflen)
+  File "/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/ssl.py", line 160, in read
+    return self._sslobj.read(len)
+ssl.SSLError: The read operation timed out
+Ankits-MacBook-Air:bitcoin ankitgupta$ python practice.py 

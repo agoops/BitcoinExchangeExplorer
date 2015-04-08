@@ -1,0 +1,51 @@
+
+
+
+
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Block attributes:
+	__doc__ 			None
+	__init__ 			<bound method Block.__init__ of <blockchain.blockexplorer.Block instance at 0x102fd6d40>>
+	__module__ 			blockchain.blockexplorer
+	bits 			405280238
+	block_index 			462985
+	fee 			5290410
+	hash 			000000000000000016f9a2c3e0f4c1245ff24856a79c34806969f5084f410680
+	height 			319950
+	main_chain 			True
+	merkle_root 			75ebe61185ea3dff0a6a8c88a9980b5c6a2fd431eae2c6eb7a609e1553797e8b
+	n_tx 			345
+	nonce 			1691190631
+	previous_block 			000000000000000019d5281e47269030f34fabf702fd14856f2445c621335c25
+	received_time 			1410326701
+	relayed_by 			88.208.18.246
+	size 			213446
+	time 			1410326701
+	transactions: [array nigga]
+	version 			2
+
+Transaction attributes
+	__doc__ 			None
+	__init__ 			<bound method Transaction.__init__ of <blockchain.blockexplorer.Transaction instance at 0x102fd6ea8>>
+	__module__ 			blockchain.blockexplorer
+	block_height 			319950
+	double_spend 			False
+	hash 			d5c0e781c483ad6b16c4da146b95af93f226f8857c3d3880a01e388857789577
+	inputs 			[<blockchain.blockexplorer.Input instance at 0x102fd6ef0>]
+	outputs 			[<blockchain.blockexplorer.Output instance at 0x102fd6f38>]
+	relayed_by 			88.208.18.246
+	size 			157
+	time 			1410326701
+	tx_index 			64178580
+	version 			1
+
+Input attributes
+	__doc__ 			None
+	__init__ 			<bound method Input.__init__ of <blockchain.blockexplorer.Input instance at 0x102fd6ef0>>
+	__module__ 			blockchain.blockexplorer
+	script_sig 			03cee104062f503253482f049ce00f54083da268781e9900002e522cfabe6d6d99eb2b1805b8927d8415839ab14dbdce9ce7e97db00ec50799ee2af88955e59f0400000000000000
+	sequence 			0
