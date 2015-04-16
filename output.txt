@@ -43,9 +43,26 @@ Transaction attributes
 	tx_index 			64178580
 	version 			1
 
-Input attributes
+Input attributes:
 	__doc__ 			None
-	__init__ 			<bound method Input.__init__ of <blockchain.blockexplorer.Input instance at 0x102fd6ef0>>
+	__init__ 			<bound method Input.__init__ of <blockchain.blockexplorer.Input instance at 0x1025755f0>>
 	__module__ 			blockchain.blockexplorer
-	script_sig 			03cee104062f503253482f049ce00f54083da268781e9900002e522cfabe6d6d99eb2b1805b8927d8415839ab14dbdce9ce7e97db00ec50799ee2af88955e59f0400000000000000
-	sequence 			0
+	address 			17bWK1kGySckEV7jpNBHUmHuX1UoHeHoAs
+	n 			3
+	script 			76a91448575d588bd79b3f250c9ed35de0c595cc838a5e88ac
+	script_sig 			473044022017aa4c3898b8a7f0834d6f239fd3f870de2d61e61a42e2088c246b92620fe97502200ed4737035142ebf81da591842b358865c8772cc30cb7f6fdac36cc38b9381cc0141045822da11a305478aad3354060b458e4dc7763ce2375a882696fae86ca52eb1a9b32469b15b630523652b4ca462844ca69372b09b0aa03518a1615a2a59fff81c
+	sequence 			4294967295
+	tx_index 			80751506
+	type 			0
+	value 			5000000000
+
+Output attributes:
+	__doc__ 			None
+	__init__ 			<bound method Output.__init__ of <blockchain.blockexplorer.Output instance at 0x102575680>>
+	__module__ 			blockchain.blockexplorer
+	address 			1N6MXy1VhnZbPvME6EaUXoN5q3EWuL2ReG
+	n 			0
+	script 			76a914e75ddcb264ef4e64095edeba57da4769ff506acc88ac
+	spent 			True
+	tx_index 			80750244
+	value 			5000000000
