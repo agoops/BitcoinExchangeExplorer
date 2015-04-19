@@ -129,12 +129,18 @@ edges = []
 edge_factory = EdgeFactory()
 
 
-
-root_address = '17bWK1kGySckEV7jpNBHUmHuX1UoHeHoAs'
+# Coinbase
+# root_address = '17bWK1kGySckEV7jpNBHUmHuX1UoHeHoAs'
+# Circle
+# root_address = '1LZpJP5zKGAXnH4SnJF98cVn7sBHJroViG'
+# Multibit to Circle
+# root_address = '1DJv4wgJXCwK4m2BEmjg5P4meYKhKtcp9K'
+# Circle Afterwards
+root_address = '1PyZX9JTfs3vgnN2MRJTk9rH2f7aG7ukoR'
 unexploredAddresses[root_address] = 1
 
 # Explore an address, create edges in/out of this address
-for i in range(3):
+for i in range(4):
 	address_string = popUnexploredAddress(unexploredAddresses)
 
 	address_object = blockexplorer.get_address(address_string)
